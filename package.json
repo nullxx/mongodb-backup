@@ -1,6 +1,6 @@
 {
-  "version": "1.6.9",
-  "name": "mongodb-backup",
+  "version": "1.0.0",
+  "name": "@nullx/mongodb-backup",
   "description": "backup for mongodb",
   "keywords": [
     "mongodb",
@@ -8,38 +8,37 @@
     "dump"
   ],
   "preferGlobal": false,
-  "homepage": "https://github.com/hex7c0/mongodb-backup",
+  "homepage": "https://github.com/nullxx/mongodb-backup",
   "author": {
-    "name": "hex7c0",
-    "email": "hex7c0@gmail.com",
-    "url": "https://hex7c0.github.io/"
+    "name": "nullx",
+    "email": "mail@nullx.me",
+    "url": "https://nullx.me/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hex7c0/mongodb-backup.git"
+    "url": "https://github.com/nullxx/mongodb-backup.git"
   },
   "bugs": {
-    "url": "https://github.com/hex7c0/mongodb-backup/issues",
-    "email": "hex7c0@gmail.com"
+    "url": "https://github.com/nullxx/mongodb-backup/issues",
+    "email": "mail@nullx.me"
   },
   "main": "index.min.js",
   "dependencies": {
-    "bson": "1.0.4",
-    "fstream": "1.0.11",
+    "bson": "4.7.0",
+    "fstream": "1.0.12",
     "graceful-fs": "4.1.11",
-    "logger-request": "3.8.0",
-    "mongodb": "2.2.31",
-    "tar": "2.2.1"
+    "logger-request": "^3.8.0",
+    "mongodb-legacy": "^4.0.0",
+    "tar": "6.1.11"
   },
   "devDependencies": {
-    "grunt": "~1.0",
-    "grunt-contrib-uglify": "~3.3",
-    "grunt-contrib-jshint": "~1.1",
+    "grunt": "^1.5.3",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-uglify": "^3.4.0",
     "grunt-endline": "~0.7",
     "grunt-safer-regex": "~0.1",
     "istanbul": "~0.4",
-    "mocha": "~4.1",
-    "mongodb-restore": "~1.6",
+    "mocha": "^10.0.0",
     "supertest": "~3.0"
   },
   "engines": {
