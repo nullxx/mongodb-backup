@@ -1,4 +1,4 @@
-# [@nullx/mongodb-backup](https://github.com/hex7c0/mongodb-backup)
+# [@nullx/mongodb-backup](https://github.com/nullxx/mongodb-backup)
 
 Backup for mongodb
 
@@ -43,4 +43,4 @@ backup({
 
 Take a look at the examples folder
 
-### [License Apache2](https://github.com/hex7c0/mongodb-backup/blob/1.6/LICENSE)
+### [License Apache2](https://github.com/nullxx/mongodb-backup/blob/1.6/LICENSE)
