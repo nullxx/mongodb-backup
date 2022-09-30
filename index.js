@@ -532,10 +532,11 @@ function wrapper(my) {
     my.options,
     function (err, _db) {
       logger('db open');
-      var db = _db.db();
       if (err) {
         return callback(err);
       }
+
+      var db = _db.db();
 
       var root = my.tar === null ? my.root : my.dir;
       makeDir(root, function (err, name) {
